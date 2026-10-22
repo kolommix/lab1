@@ -1,4 +1,3 @@
--- главная таблица
 CREATE TABLE readers (
     reader_id SERIAL PRIMARY KEY,
     last_name VARCHAR(50) NOT NULL,
@@ -10,7 +9,7 @@ CREATE TABLE readers (
     phone VARCHAR(20) NOT NULL
 );
 
--- зависимая таблица
+
 CREATE TABLE fines (
     reader_id INT NOT NULL,
     return_date DATE NOT NULL,
