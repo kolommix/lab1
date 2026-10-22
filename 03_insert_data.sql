@@ -19,5 +19,3 @@ VALUES
 (4, '2024-03-05', 'хорошее', FALSE, 50.00),
 (5, '2024-03-12', 'испачкана', FALSE, 100.00);
 
--- остальные 5 записей таблицы fines загружаются через мастер импорта из fines.csv
--- (pgAdmin: Import/Export Data, CSV, Header: on, Delimiter: ;)
