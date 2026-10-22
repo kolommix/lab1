@@ -9,7 +9,6 @@ CREATE TABLE readers (
     phone VARCHAR(20) NOT NULL
 );
 
-
 CREATE TABLE fines (
     reader_id INT NOT NULL,
     return_date DATE NOT NULL,
